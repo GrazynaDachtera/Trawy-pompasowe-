@@ -1,3 +1,90 @@
 * {
     border: 1px solid black;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.headline-section {
+    font-family: Calibri, sans-serif;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.headline {
+}
+
+.nav-bar {
+    display: inline-block;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 4px;
+    margin: 8px;
+    text-decoration: none;
+}
+
+.slider {
+
+}
+
+.body-section {
+    font-family: Calibri, sans-serif;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.body-headline {
+
+}
+
+.r-1 {
+
+}
+
+.r-2 {
+
+}
+
+.r-3 {
+
+}
+
+.rental {
+
+}
+
+.neon {
+
+}
+
+.footer-section {
+    font-family: Calibri, sans-serif;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.contact {
+
 }
