@@ -1,5 +1,4 @@
 * {
-    border: 1px solid black;
     box-sizing: border-box;
     background-color: #ffffff;
 }
@@ -12,31 +11,81 @@
     text-align: center;
 }
 
-.headline {
-}
-
-.nav-bar {
+#menu-bar {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
     display: inline-block;
-    overflow: hidden;
+    margin: 2px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    display: block;
+}
+
+#bar1 {
+    transform: translateY(-4px);
+}
+
+#bar3 {
+    transform: translateY(4px);
+}
+
+.nav {
+    transition: 0.3s ease;
+    display: none;
+
+}
+
+.nav ul {
+    display: inline-block;
+}
+
+.nav li {
+    list-style: none;
+    padding: 10px;
+    margin-right: 40px;
+}
+
+.nav li a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    font-weight: bold;
+}
+
+.menu-bg, #menu {
+    top: 0;
+    left: 0;
     position: relative;
 }
 
-li {
-    float: left;
+.change {
+    display: grid;
 }
 
-li a {
-    display: block;
-    text-align: center;
-    padding: 4px;
-    margin: 8px;
-    text-decoration: none;
+.change .bar {
+    background-color: white;
+}
+
+.change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+    opacity: 0;
+}
+
+.change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
 }
 
 .slider {
