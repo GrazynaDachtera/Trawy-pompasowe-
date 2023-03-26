@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
-    background-color: #ffffff;
-    background-color: beige;
+    background-color: #FFFFFF;
 }
 
 .headline-section {
@@ -10,6 +9,18 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    display: inline-flex;
+    align-items: center;
+}
+
+.body-img {
+    width: 450px;
+    height:600px;
 }
 
 #menu-bar {
@@ -17,7 +28,8 @@
     height: 35px;
     cursor: pointer;
     display: inline-block;
-    margin: 2px;
+    margin: 31px;
+    margin-top: 58px;
 }
 
 .bar {
@@ -45,18 +57,22 @@
 
 .nav ul {
     display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
 .nav li {
     list-style: none;
     padding: 10px;
     margin-right: 40px;
+    display: inline-block;
 }
 
 .nav li a {
     color: black;
     font-size: 16px;
     text-decoration: none;
+    display: block;
 }
 
 .nav li a:hover {
@@ -74,7 +90,7 @@
 }
 
 .change .bar {
-    background-color: white;
+    background-color: #000000;
 }
 
 .change #bar1 {
