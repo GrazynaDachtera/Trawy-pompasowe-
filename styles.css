@@ -4,7 +4,7 @@
 }
 
 .headline-section {
-    font-family: Calibri, sans-serif;
+    font-family: Syne,sans-serif;
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -14,9 +14,10 @@
 }
 
 .headline-img {
-    height: 300px;
-    width: 300px;
-    margin-top: 2px;
+    height: 199px;
+    width: 350px;
+    cursor: pointer;
+    padding-top: 30px;
 }
 
 .menu {
@@ -24,43 +25,13 @@
     align-items: center;
     position: relative;
     height: 110px;
-}
 
-.body-img {
-    width: 450px;
-    height:600px;
 }
 
 #menu-bar {
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
     display: inline-block;
     margin: 31px;
     margin-top: 58px;
-}
-
-.bar {
-    height: 5px;
-    width: 100%;
-    background-color: rgb(152,121,59);
-    border-radius: 5px;
-    transition: 0.3s ease;
-    display: block;
-}
-
-#bar1 {
-    transform: translateY(-4px);
-}
-
-#bar3 {
-    transform: translateY(4px);
-}
-
-.nav {
-    transition: 0.3s ease;
-    display: none;
-
 }
 
 .nav ul {
@@ -74,6 +45,7 @@
     padding: 10px;
     margin-right: 5px;
     display: inline-block;
+    letter-spacing: 0;
 }
 
 .nav li a {
@@ -113,12 +85,51 @@
     transform: translateY(-6px) rotateZ(45deg);
 }
 
-.slider {
+.slider-container {
+    position: relative;
+    height: 200px;
+    width: 1110px;
+    overflow: hidden;
+    margin: 0 auto; /* Center the slider on the page */
+}
 
+.slider {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: flex-end;
+    animation: slide 10s linear infinite; /* Add animation properties */
+}
+
+.slider img {
+    width: 600px; /* Set the width of each image to match the container */
+    height: 300px; /* Set the height of each image to match the container */
+    object-fit: cover;
+    z-index: -1;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0); /* Start at 0% */
+    }
+    20% {
+        transform: translateX(0); /* Hold for 20% of the animation */
+    }
+    25% {
+        transform: translateX(-600px); /* Slide left to reveal the next image */
+    }
+    95% {
+        transform: translateX(-600px); /* Hold for 75% of the animation */
+    }
+    100% {
+        transform: translateX(0); /* Loop back to the first image */
+    }
 }
 
 .body-section {
     font-family: Calibri, sans-serif;
+    color: rgb(152,121,59);
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -126,11 +137,44 @@
 
 }
 
-.body-img {
-    align-items: flex-end;
+.body-section h2 {
+    font-size: 40px;
+    letter-spacing: 1rem;
+    color: rgb(117,67,25);
 }
 
-.body-headline {
+.body-img {
+    width: 507px;
+    height:324px;
+    display: inline-block;
+}
+
+.about-me {
+    display: inline-flex;
+    position: relative;
+    overflow: hidden;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.about-me-container {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    max-width: 600px;
+    overflow: hidden;
+    justify-content: center;
+    font-family: Calibri, sans-serif;
+    color: rgb(152,121,59);
+    align-items: flex-start;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.oferta {
 
 }
 
@@ -146,11 +190,11 @@
 
 }
 
-.rental {
+.neony {
 
 }
 
-.neon {
+.jak-pracujemy {
 
 }
 
@@ -160,6 +204,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: rgb(117,67,25);
+    font-size: 30px;
+    letter-spacing: 1rem;
 
 }
 
