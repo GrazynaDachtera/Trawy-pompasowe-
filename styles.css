@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    background-color: rgb(244,245,238);
+    background-color: rgb(244, 245, 238);
 }
 
 .headline-section {
@@ -144,9 +144,10 @@
 }
 
 .body-img {
-    width: 507px;
-    height:324px;
+    width: 510px;
+    height:334px;
     display: inline-block;
+    margin: 0 auto;
 }
 
 .about-me {
@@ -169,9 +170,10 @@
     justify-content: center;
     font-family: Calibri, sans-serif;
     color: rgb(152,121,59);
-    align-items: flex-start;
     display: flex;
     box-sizing: border-box;
+    flex-direction: column;
+
 }
 
 .oferta {
