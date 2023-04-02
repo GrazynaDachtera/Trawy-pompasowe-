@@ -1,10 +1,11 @@
+
 * {
     box-sizing: border-box;
     background-color: rgb(244, 245, 238);
 }
 
 .headline-section {
-    font-family: Syne,sans-serif;
+    font-family: 'Montserrat', sans-serif;
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -32,6 +33,7 @@
     display: inline-block;
     margin: 31px;
     margin-top: 58px;
+    margin-left: 5px;
 }
 
 .nav ul {
@@ -49,7 +51,7 @@
 }
 
 .nav li a {
-    color: rgb(152,121,59);
+    color: #98793B;
     font-size: 14px;
     text-decoration: none;
     display: block;
@@ -128,8 +130,8 @@
 }
 
 .body-section {
-    font-family: Calibri, sans-serif;
-    color: rgb(152,121,59);
+    font-family: 'Montserrat', sans-serif;
+    color: #98793B;
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -138,13 +140,13 @@
 }
 
 .body-section h2 {
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 1rem;
-    color: rgb(117,67,25);
+    color: #98793B;
 }
 
 .body-img {
-    width: 510px;
+    width: 500px;
     height:334px;
     display: inline-block;
     margin: 0 auto;
@@ -159,6 +161,7 @@
     text-align: left;
     word-wrap: break-word;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .about-me-container {
@@ -168,51 +171,70 @@
     max-width: 600px;
     overflow: hidden;
     justify-content: center;
-    font-family: Calibri, sans-serif;
-    color: rgb(152,121,59);
+    color: #98793B;
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
     margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 
 }
 
 .oferta {
-
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1rem;
+    color: #98793B;
 }
 
 .r-1 {
+    font-family: 'Montserrat', sans-serif;
 
 }
 
 .r-2 {
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 .r-3 {
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 .neony {
-
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1rem;
+    color: #98793B;
 }
 
 .jak-pracujemy {
-
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1rem;
+    color: #98793B;
 }
 
 .footer-section {
-    font-family: Calibri, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     overflow: hidden;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: rgb(117,67,25);
-    font-size: 30px;
+    font-size: 14px;
+    color: #98793B;
+}
+.contact {
+    color: #98793B;
+    font-size: 20px;
     letter-spacing: 1rem;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
-.contact {
+.facebook-icon {
+    cursor: pointer;
+}
 
+.instagram-icon {
+    cursor: pointer;
 }
