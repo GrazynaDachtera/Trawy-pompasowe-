@@ -188,20 +188,21 @@
     color: #98793B;
 }
 
-.r-1 {
-    font-family: 'Montserrat', sans-serif;
-
-}
-
-.r-2 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.r-3 {
-    font-family: 'Montserrat', sans-serif;
-}
-
 .jak-pracujemy {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1rem;
+    color: #98793B;
+}
+
+.realizacje {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1rem;
+    color: #98793B;
+}
+
+.rekomendacje {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     letter-spacing: 1rem;
