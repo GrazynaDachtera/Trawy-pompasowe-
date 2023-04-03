@@ -101,31 +101,31 @@
     display: flex;
     overflow: hidden;
     align-items: flex-end;
-    animation: slide 10s linear infinite; /* Add animation properties */
+    animation: slide 10s linear infinite;
 }
 
 .slider img {
-    width: 600px; /* Set the width of each image to match the container */
-    height: 300px; /* Set the height of each image to match the container */
+    width: 600px;
+    height: 300px;
     object-fit: cover;
     z-index: -1;
 }
 
 @keyframes slide {
     0% {
-        transform: translateX(0); /* Start at 0% */
+        transform: translateX(0);
     }
     20% {
-        transform: translateX(0); /* Hold for 20% of the animation */
+        transform: translateX(0);
     }
     25% {
-        transform: translateX(-600px); /* Slide left to reveal the next image */
+        transform: translateX(-600px);
     }
     95% {
-        transform: translateX(-600px); /* Hold for 75% of the animation */
+        transform: translateX(-600px);
     }
     100% {
-        transform: translateX(0); /* Loop back to the first image */
+        transform: translateX(0);
     }
 }
 
