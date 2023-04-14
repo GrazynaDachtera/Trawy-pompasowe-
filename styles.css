@@ -188,6 +188,89 @@
     color: #98793B;
 }
 
+.koło-container {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1110px;
+}
+
+.koło-container-text {
+    flex: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #98793B;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.koło-container-slider {
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    flex: 1;
+    display: flex;
+}
+
+.łuki-container {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1110px;
+}
+
+.łuki-container-text {
+    flex: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #98793B;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin-right: 10px;
+    order: 2;
+}
+
+.łuki-container-slider {
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    flex: 1;
+    display: flex;
+    order: 1;
+}
+
+
 .jak-pracujemy {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;

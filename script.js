@@ -5,13 +5,13 @@ function menuOnClick() {
 }
 
 
-const slider = document.querySelector(".slider");
+const slider1 = document.querySelector(".slider");
 const images = document.querySelectorAll(".slider img");
 
 let counter = 0;
 const size = images[0].clientWidth;
 
-slider.style.transform = "translateX(" + (-size * counter) + "px)";
+slider1.style.transform = "translateX(" + (-size * counter) + "px)";
 
 setInterval(() => {
     if (counter < images.length - 1) {
@@ -19,8 +19,11 @@ setInterval(() => {
     } else {
         counter = 0;
     }
-    slider.style.transform = "translateX(" + (-size * counter) + "px)";
+    slider1.style.transform = "translateX(" + (-size * counter) + "px)";
 }, 4000);
+
+
+
 
 
 
