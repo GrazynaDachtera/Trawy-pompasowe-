@@ -44,7 +44,7 @@
 
 .nav li {
     list-style: none;
-    padding: 10px;
+    padding: 25px;
     margin-right: 5px;
     display: inline-block;
     letter-spacing: 0;
@@ -220,12 +220,40 @@
 }
 
 .koło-container-slider {
-    height: 400px;
-    width: 600px;
+    position: relative;
+    height: 450px;
+    width: 380px;
     overflow: hidden;
-    margin: 0 auto;
-    flex: 1;
-    display: flex;
+}
+
+#slider2 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: slide2 10s infinite;
+}
+
+#slider2 img:first-child {
+    animation-delay: 0s;
+}
+
+#slider2 img:last-child {
+    animation-delay: 5s;
+}
+
+@keyframes slide2 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 .łuki-container {
@@ -260,14 +288,47 @@
     order: 2;
 }
 
+.skontaktuj-img {
+    height: 41px;
+    width: 150px;
+    margin-top: 20px;
+}
+
 .łuki-container-slider {
-    height: 400px;
-    width: 600px;
+    position: relative;
+    height: 450px;
+    width: 380px;
     overflow: hidden;
-    margin: 0 auto;
-    flex: 1;
-    display: flex;
-    order: 1;
+}
+
+#slider3 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: slide3 10s infinite;
+}
+
+#slider3 img:first-child {
+    animation-delay: 0s;
+}
+
+#slider3 img:last-child {
+    animation-delay: 5s;
+}
+
+@keyframes slide3 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 
@@ -279,8 +340,8 @@
 }
 
 .jak-pracujemy-img {
-    height: 327px;
-    width: 1110px;
+    height: 295px;
+    width: 1000px;
 }
 
 .realizacje {
