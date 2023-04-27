@@ -292,9 +292,22 @@
 
 .rekomendacje {
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    letter-spacing: 1rem;
+    font-size: 14px;
     color: #98793B;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+    width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+.serce-img {
+    width: 80px;
+    height: 77px;
 }
 
 .footer-section {
