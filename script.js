@@ -23,6 +23,38 @@ setInterval(() => {
 }, 4000);
 
 
+const thumbnail = document.querySelector(".thumbnail");
+const fullSizeImageURL = "pictures/koło/image-20-04-23-08-39 (1).jpeg";
+
+thumbnail.addEventListener("click", function() {
+    window.open(fullSizeImageURL, "_blank");
+});
+
+const thumbnail1 = document.querySelector(".thumbnail1");
+const fullSize1ImageURL = "pictures/BK6A3596.jpg";
+
+thumbnail1.addEventListener("click", function() {
+    window.open(fullSize1ImageURL, "_blank");
+});
+
+const thumbnail2 = document.querySelector(".thumbnail2");
+const fullSize2ImageURL = "pictures/BK6A3557.jpg";
+
+thumbnail2.addEventListener("click", function() {
+    window.open(fullSize2ImageURL, "_blank");
+});
+
+const thumbnail3 = document.querySelector(".thumbnail3");
+const fullSize3ImageURL = "pictures/BK6A3528.jpg";
+
+thumbnail3.addEventListener("click", function() {
+    window.open(fullSize3ImageURL, "_blank");
+});
+
+
+
+
+
 
 
 
