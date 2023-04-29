@@ -46,7 +46,7 @@
 .nav li {
     list-style: none;
     padding: 8px;
-    margin-right: 25px;
+    margin-right: 10px;
     display: inline-block;
     letter-spacing: 0;
 }
@@ -395,7 +395,8 @@
 }
 
 .galeria {
-    margin: 20px 0 20px 0;
+    margin-bottom: 0;
+    margin-top: 5px;
 }
 
 .image-container {
