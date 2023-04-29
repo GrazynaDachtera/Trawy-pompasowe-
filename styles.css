@@ -312,6 +312,7 @@
     height: 450px;
     width: 380px;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 #slider3 img {
