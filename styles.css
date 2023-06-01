@@ -6,6 +6,7 @@
 
 .headline-section {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -52,7 +53,7 @@
 }
 
 .nav li a {
-    color: #98793B;
+    color: #896d35;
     font-size: 14px;
     text-decoration: none;
     display: block;
@@ -133,7 +134,7 @@
 
 .body-section {
     font-family: 'Montserrat', sans-serif;
-    color: #98793B;
+    color: #896d35;
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -143,15 +144,17 @@
 
 .body-section h2 {
     font-size: 30px;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 1rem;
-    color: #98793B;
-    background-color: #E4DCD1;
+    color: #896d35;
+    background-color: rgb(244, 245, 238);
     width: 1110px;
     overflow: hidden;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 5px auto;
+    margin: 30px auto;
+    font-weight: 300;
 
 }
 
@@ -171,7 +174,8 @@
     text-align: left;
     word-wrap: break-word;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: #896d35;
 }
 
 .about-me-container {
@@ -181,21 +185,21 @@
     max-width: 600px;
     overflow: hidden;
     justify-content: center;
-    color: #98793B;
+    color: #896d35;
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
     margin-right: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
 
 }
 
 .oferta {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 30px;
     letter-spacing: 1rem;
-    color: #98793B;
+    color: #896d35;
 }
 
 .koło-container {
@@ -207,16 +211,16 @@
     text-align: left;
     word-wrap: break-word;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     max-width: 1110px;
     margin-top: 10px;
 }
 
 .koło-container-text {
     flex: 1;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    color: #98793B;
+    color: #896d35;
     height: 100%;
     overflow: hidden;
     justify-content: center;
@@ -277,15 +281,15 @@
     text-align: left;
     word-wrap: break-word;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     max-width: 1110px;
 }
 
 .łuki-container-text {
     flex: 1;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    color: #98793B;
+    color: #896d35;
     height: 100%;
     overflow: hidden;
     justify-content: center;
@@ -347,10 +351,10 @@
 
 
 .jak-pracujemy {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 30px;
     letter-spacing: 1rem;
-    color: #98793B;
+    color: #896d35;
 }
 
 .jak-pracujemy-img {
@@ -360,16 +364,16 @@
 }
 
 .realizacje {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 30px;
     letter-spacing: 1rem;
-    color: #98793B;
+    color: #896d35;
 }
 
 .rekomendacje {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    color: #98793B;
+    color: #896d35;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -478,23 +482,42 @@
 }
 
 .footer-section {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     overflow: hidden;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 14px;
-    color: #98793B;
+    color: #896d35;
 }
 
 .footer-section-div * {
-    background-color: #DDCBB2;
+    background-color: #ede4d7;
 }
 
 .contact {
-    color: #98793B;
     font-size: 20px;
     letter-spacing: 1rem;
+    margin: 35px auto;
+    font-weight: 100;
+}
+
+.contact h2 {
+    letter-spacing: 1rem;
+    margin: 35px auto;
+    font-weight: 300;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact p {
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    color: #896d35;
+    font-weight: 100;
 }
 
 .facebook-icon {
