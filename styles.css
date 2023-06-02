@@ -128,6 +128,17 @@
     animation: slide 10s linear infinite;
 }
 
+@media (max-width: 768px) {
+    .slider {
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+        animation: none;
+    }
+}
+
 .slider img {
     width: 600px;
     height: 300px;
@@ -530,6 +541,12 @@
     overflow: hidden;
     margin: 0 auto;
 
+}
+
+@media (max-width: 768px) {
+    .rekomendacje {
+        display: none;
+    }
 }
 .rekomendacje-tekst {
     text-align: center;
