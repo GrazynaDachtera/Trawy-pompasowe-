@@ -526,14 +526,23 @@
 
 @media (max-width: 768px) {
     .jak-pracujemy-img {
+        display: none;
+    }
+}
+
+.mobile-img {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobile-img {
         overflow: hidden;
         justify-content: center;
         align-items: center;
         text-align: center;
         margin: 10px auto;
         display: flex;
-        max-width: 450px;
-        max-height: 133px;
+        max-width: fit-content;
     }
 }
 
