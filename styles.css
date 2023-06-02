@@ -54,6 +54,12 @@
     margin-left: 0;
 }
 
+@media (max-width: 768px) {
+    #menu-bar {
+        display: none;
+    }
+}
+
 .nav ul {
     display: inline-block;
     margin: 0;
@@ -190,6 +196,7 @@
         align-items: center;
         text-align: center;
         margin: 10px auto;
+        max-width: fit-content;
     }
 }
 
@@ -422,6 +429,18 @@
     margin-top: 0;
 }
 
+@media (max-width: 768px) {
+    .jak-pracujemy-img {
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+        max-width: 560px;
+        max-height: 165px;
+    }
+}
+
 .realizacje {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
@@ -451,6 +470,17 @@
     overflow: hidden;
     width: 800px;
     margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .rekomendacje-tekst {
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+        max-width: fit-content;
+    }
 }
 
 .serce-img {
