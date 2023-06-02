@@ -278,16 +278,6 @@
         align-items: center;
         text-align: center;
         margin: 10px auto;
-    }
-}
-
-@media (max-width: 768px) {
-    .about-me-container {
-        overflow: hidden;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 10px auto;
         display: flex;
         flex-direction: column;
     }
@@ -343,6 +333,18 @@
     text-align: center;
     margin-left: 30px;
     margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .koło-container-text {
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+        display: flex;
+        max-width: fit-content;
+    }
 }
 
 .koło-container-slider {
@@ -438,6 +440,18 @@
     margin-right: 30px;
     margin-left: 20px;
     order: 2;
+}
+
+@media (max-width: 768px) {
+    .łuki-container-text {
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+        display: flex;
+        max-width: fit-content;
+    }
 }
 
 .skontaktuj-img {
