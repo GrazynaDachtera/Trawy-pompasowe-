@@ -2,6 +2,7 @@
 * {
     box-sizing: border-box;
     background-color: rgb(244, 245, 238);
+    border: 1px solid black;
 }
 
 .headline-section {
@@ -23,12 +24,27 @@
     margin-right: 10px;
 }
 
+@media (max-width: 768px) {
+    .headline-img {
+        justify-content: center;
+        margin: 10px auto;
+        align-items: center;
+        overflow: hidden;
+    }
+}
+
 .menu {
     display: inline-flex;
     align-items: center;
     position: relative;
     height: 110px;
 
+}
+
+@media (max-width: 768px) {
+    .nav {
+    display: none;
+    }
 }
 
 #menu-bar {
@@ -139,7 +155,16 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
 
+@media (max-width: 768px) {
+    .body-section {
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+    }
 }
 
 .body-section h2 {
@@ -158,11 +183,33 @@
 
 }
 
+@media (max-width: 768px) {
+    .body-section h2 {
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+    }
+}
+
 .body-img {
     width: 500px;
     height:334px;
     display: inline-block;
     margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .body-img {
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .about-me {
@@ -193,6 +240,18 @@
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
 
+}
+
+@media (max-width: 768px) {
+    .about-me-container {
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .oferta {
