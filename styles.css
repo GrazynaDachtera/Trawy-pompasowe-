@@ -518,6 +518,12 @@
     color: #896d35;
 }
 
+@media (max-width: 768px) {
+    .jak-pracujemy {
+        display: none;
+    }
+}
+
 .jak-pracujemy-img {
     height: 295px;
     width: 1000px;
@@ -541,7 +547,7 @@
         align-items: center;
         text-align: center;
         margin: 10px auto;
-        display: flex;
+        display: none;
         max-width: content-box;
     }
 }
