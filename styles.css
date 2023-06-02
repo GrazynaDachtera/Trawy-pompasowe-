@@ -2,7 +2,6 @@
 * {
     box-sizing: border-box;
     background-color: rgb(244, 245, 238);
-    border: 1px solid black;
 }
 
 .headline-section {
@@ -216,6 +215,7 @@
         margin: 10px auto;
         display: flex;
         flex-direction: column;
+        max-width: fit-content;
     }
 }
 
@@ -232,6 +232,18 @@
     color: #896d35;
 }
 
+@media (max-width: 768px) {
+    .about-me {
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .about-me-container {
     height: 100%;
     width: 100%;
@@ -246,7 +258,16 @@
     margin-right: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
+}
 
+@media (max-width: 768px) {
+    .about-me-container {
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+    }
 }
 
 @media (max-width: 768px) {
@@ -282,6 +303,18 @@
     margin-top: 10px;
 }
 
+@media (max-width: 768px) {
+    .koło-container {
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+        flex-direction: column;
+        display: flex;
+    }
+}
+
 .koło-container-text {
     flex: 1;
     font-family: 'Raleway', sans-serif;
@@ -313,6 +346,18 @@
     width: 100%;
     height: 100%;
     animation: slide2 10s infinite;
+}
+
+@media (max-width: 768px) {
+        #slider2 img {
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+        animation: none;
+        display: flex;
+    }
 }
 
 #slider2 img:first-child {
@@ -350,6 +395,19 @@
     font-family: 'Raleway', sans-serif;
     max-width: 1110px;
 }
+
+@media (max-width: 768px) {
+    .łuki-container {
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+        flex-direction: column-reverse;
+        display: flex;
+    }
+}
+
 
 .łuki-container-text {
     flex: 1;
@@ -390,6 +448,18 @@
     width: 100%;
     height: 100%;
     animation: slide3 10s infinite;
+}
+
+@media (max-width: 768px) {
+    #slider3 img {
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+        animation: none;
+        display: flex;
+    }
 }
 
 #slider3 img:first-child {
