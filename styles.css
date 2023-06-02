@@ -580,6 +580,12 @@
     margin-top: 5px;
 }
 
+@media (max-width: 768px) {
+     .galeria {
+        display: none;
+    }
+}
+
 .image-container {
     position: relative;
     display: inline-block;
