@@ -531,8 +531,9 @@
         align-items: center;
         text-align: center;
         margin: 10px auto;
-        max-width: 560px;
-        max-height: 165px;
+        display: flex;
+        max-width: 450px;
+        max-height: 133px;
     }
 }
 
