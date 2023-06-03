@@ -266,9 +266,9 @@
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
-    margin-right: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
+    margin: 10px;
 }
 
 @media (max-width: 768px) {
@@ -612,7 +612,8 @@
 
 @media (max-width: 768px) {
      .galeria {
-        display: none;
+        display: flex;
+         margin: 10px auto;
     }
 }
 
@@ -701,6 +702,7 @@
     text-align: center;
     font-size: 14px;
     color: #896d35;
+    margin-top: 10px;
 }
 
 .footer-section-div * {
