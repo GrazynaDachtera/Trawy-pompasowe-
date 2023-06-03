@@ -607,13 +607,18 @@
 
 .galeria {
     margin-bottom: 0;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 @media (max-width: 768px) {
-     .galeria {
+    .galeria {
         display: flex;
-         margin: 10px auto;
+        flex-direction: column;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+
     }
 }
 
@@ -621,7 +626,7 @@
     position: relative;
     display: inline-block;
     cursor: pointer;
-    margin: 10px 0 10px 0;
+    margin: 10px auto;
 }
 
 .thumbnail {
